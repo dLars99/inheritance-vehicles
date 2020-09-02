@@ -14,5 +14,9 @@ namespace InheritanceVehicles
         {
             Console.WriteLine($"The {MainColor} Ram drives past. Rrrrooooaaaaarrrrr.");
         }
+        public override void Stop()
+        {
+            Console.WriteLine($"The {MainColor} Ram stops 100 yards past the marked stopping point.");
+        }
     }
 }
